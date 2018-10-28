@@ -28,11 +28,11 @@ h1.page2 {
     display: flex;
 }
 .column {
-	flex: 50%;
+	flex: 50
 }
-/*img{
+img{
 	display: block;
-}*/
+}
 
 .page3 {
 	background-color: pink;
