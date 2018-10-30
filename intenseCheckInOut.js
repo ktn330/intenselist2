@@ -26,6 +26,7 @@ btn.onclick = function(){
 var crew = document.querySelector("#crew").value 
 var truckId = document.querySelector("#truckId").value
 var dropOffLocation = document.querySelector("#dropOffLocation").value
+var alternateSideParking = document.querySelector("#alternateSideParking").value
 var gas = document.querySelector("#gas").value
 var shrinkQty =document.querySelector("#shrink qty")
 var blanketsQty =document.querySelector("#blankets")
@@ -42,6 +43,7 @@ results.innerHTML = "Current truck status," + crew + "<br>" +
 "Crew" + crew
 "Truck ID" +  truck id  
 "Drop Off Locatiion" + drop off location
+"alternateSideParking" + alternateSideParking
 "Gas" + gas
 "Shrink Qty" + shrink qty
 "Blanket Qty" + blanket qty
