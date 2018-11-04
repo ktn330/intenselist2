@@ -2,17 +2,19 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="intenseCheckInOut.css">
-	<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <script src="http://cdn-na.infragistics.com/igniteui/2018.1/latest/js/infragistics.core.js"></script>
-    <script src="http://cdn-na.infragistics.com/igniteui/2018.1/latest/js/infragistics.dv.js"></script>
-	<title>Check In/Out</title>
-	
+	 <title>Intense CheckIn/Out</title>
+
 </head>
 <body class="page3">
-	<hr>
-	Crew: <input type="text" namme= "" id="crew"><br>
+
+	<div id="container2">
+		<video id="myVideo2"><source src="IMG_5846.m4v" type="video/mp4"></video>
+	
+	<p id="results"></p>
+	<div id="content2">
+		
+	<h5>
+	Crew: <input type="text" name="" id="crew"><br>
 	Truck ID: <input type="text" name="" id="truckId"><br>
 	<form action="https://www.google.com/maps" method="GET">
 		Pickup Location:<input type="text" name="" id="pickupLocation"><input type="submit" value="Submit">
@@ -40,7 +42,7 @@
 </select>
 <br>
 	Blankets
-	Qty: <select id="blanketQty">
+	Qty: <select id="blanketsQty">
 	<option>0</option>
 	<option>1-10</option>
 	<option>10-20</option>
@@ -58,7 +60,7 @@
 	</select>
 	<br>
 	
-	Dollys Qty: <select id="dollysQty">
+	Dollys Qty: <select id="dollyQty">
 	<option>0</option>
 	<option>1</option>
 	<option>2</option>
@@ -92,7 +94,7 @@ Truck Condition
 </select>
 	<br>
 	Left:
-	<select id="leftLightsMirror">
+	<select id="leftMirror">
 	<option>In Tact</option>
 	<option>Cracked</option>
 	<option>Broken/Shatterd</option>
@@ -101,13 +103,13 @@ Truck Condition
 	Lights
 	<br>
 	Right:
-	<select id="rightLight">
+	<select id="rightLights">
 	<option>In Tact</option>
 	<option>Broken</option>
 </select>
 	<br>
 	Left:
-	<select id="leftLight">
+	<select id="leftLights">
 	<option>In Tact</option>
 	<option>Broken</option>
 </select>
@@ -121,7 +123,7 @@ Truck Condition
 	<option>Clean</option>
 	<option>Dirty</option>
 	</select><br>
-<form id="exteriorTruckDamage" action="/action_page.php" id="usrform">
+<form id="exteriorTruckCondition" action="/action_page.php" id="usrform">
    Exterior Truck Damage
    <br>
   <textarea rows="4" cols="20"></textarea>
@@ -146,7 +148,10 @@ Truck Condition
 	<br>
 	<hr>
 	<br>
-	<p id="results"></p>
-<script type="text/javascript" src="intenseCheckInOut.js"></script>
+	
+</h5>
+</div>
+<
+<script type="text/javascript" src="checkout2.js"></script>
 </body>
 </html>
