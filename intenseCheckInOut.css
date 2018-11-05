@@ -72,9 +72,9 @@ h5 {
     top: 0;
     background: rgba(253, 254, 254, 0.5);
     color: #FDFEFE;
-    width: 300px;
+    width: 310px;
     padding: 30px;
-    height: 500px;
+    height: 570px;
     z-index: 1;
 }
 
@@ -88,10 +88,6 @@ h5 {
     padding: 30px;
     height: 500px;
     z-index: 1;
-  }
-
-  .a{
-    bottom: 0px;
   }
     
 
