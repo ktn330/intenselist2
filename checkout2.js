@@ -20,7 +20,7 @@ var backCondition =document.querySelector("#backCondition").value
 var exteriorTruckCondition =document.querySelector("#exteriorTruckCondition").value
 var comments =document.querySelector("#comments").value
 
-results.innerHTML = "Current truck status: " + crew + "<br>" +
+content3.innerHTML = "Current truck status: " + crew + "<br>" +
 "Crew: " + crew + "<br>" +
 "TruckId: " +  truckId + "<br>" +
 "PickupLocation: " + pickupLocation + "<br>" + 
@@ -40,8 +40,7 @@ results.innerHTML = "Current truck status: " + crew + "<br>" +
 "Exterior Truck Damage: " + exteriorTruckCondition + "<br>" +
 "Comments: " + comments + "<br>" 
 var video = document.getElementById("myVideo2");
-
-    if (video.paused) {
+	if (video.paused) {
         video.play();
         btn.innerHTML = "Pause";
     } else {
