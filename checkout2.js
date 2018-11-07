@@ -20,6 +20,8 @@ var backCondition =document.querySelector("#backCondition").value
 var exteriorTruckCondition =document.querySelector("#exteriorTruckCondition").value
 var comments =document.querySelector("#comments").value
 
+console.log(comments)
+
 content3.innerHTML = "Current truck status: " + crew + "<br>" +
 "Crew: " + crew + "<br>" +
 "TruckId: " +  truckId + "<br>" +

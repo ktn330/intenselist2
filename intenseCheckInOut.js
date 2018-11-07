@@ -23,7 +23,7 @@ if(password == "trucks"){
 }, 6000);
 }
  else{
-	result.innerHTML = "Password is incorrect."
-result.style.color = "red"
+	results.innerHTML = "Password is incorrect."
+results.style.color = "red"
 }
 }

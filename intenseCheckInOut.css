@@ -4,15 +4,23 @@
 h1 {
 	font-family: 'Permanent Marker', cursive;
     color: black;
+    padding-left: 30px;
 
 }
 
 h3 {
   font-family: font-family: 'Patrick Hand', cursive;
   color: black;
-
+  padding-left: 30px;
 }
 
+button {
+  color: black;
+  padding-left: 30px;
+  padding-right: 10px;
+
+
+}
 #container{
   /*background-image: url("IMG_5847.m4v");*/
   height: 100px; 
@@ -34,9 +42,9 @@ h3 {
    /* bottom: 0;*/
     background: rgba(253, 254, 254, 0.9);
     color: #FDFEFE;
-    width: 50px;
+   /* width: 200px;*/
     padding: 20px;
-    height: 100px;
+    /*height: 150px;*/
     z-index: 1;
 
 
@@ -45,6 +53,7 @@ h3 {
 #results{
   z-index: 2;
   top: 0;
+  padding-left: 20px;
 }
 h5 {
   font-family: font-family: 'Patrick Hand', cursive;
@@ -81,13 +90,14 @@ h5 {
 #content3{
     position: fixed;
     right: 5px;
-    top: 0;
+    top: 0vw;
     background: rgba(253, 254, 254, 0.5);
-    color: #FDFEFE;
+    color: #1C2833;
     width: 300px;
     padding: 30px;
     height: 500px;
     z-index: 1;
+
   }
     
 
